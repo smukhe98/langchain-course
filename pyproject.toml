@@ -3,17 +3,7 @@ name = "langchain-course"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-<<<<<<< HEAD
-requires-python = ">=3.11"
-dependencies = [
-    "black>=25.1.0",
-    "isort>=6.0.1",
-    "langchain>=0.3.27",
-    "langchain-ollama>=0.3.6",
-    "langchain-openai>=0.3.30",
-    "python-dotenv>=1.1.1",
-]
-=======
+
 authors = [
     { name = "Sreyashee", email = "146114883+SMUKHE1998@users.noreply.github.com" }
 ]
@@ -22,8 +12,11 @@ dependencies = [
     "black>=26.10.1",
     "isort>=9.0.2",
     "langchain>=1.5.0",
+    "langchain-ollama>=1.1.0",
     "langchain-openai>=1.8.0",
+    "langchain-tavily>=0.2.18",
     "python-dotenv>=1.2.4",
+    "tavily-python>=0.8.5",
 ]
 
 [project.scripts]
@@ -36,4 +29,3 @@ site-package-path = [".venv/lib/python3.12/site-packages"]
 [build-system]
 requires = ["uv_build>=0.12.22,<0.13.0"]
 build-backend = "uv_build"
->>>>>>> 87690ab (env setup)
